@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-    </div>
     <router-view/>
   </div>
 </template>
@@ -10,4 +8,7 @@ export default {
 }
 </script>
 <style lang="less">
+#app{
+  height: 100%;
+}
 </style>
